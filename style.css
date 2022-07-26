@@ -96,6 +96,20 @@ p {
   margin: 10px;
 }
 
+.cv-section {
+  padding: 20px 20px;
+}
+
+.cv-section h1 {
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.cv-section li {
+  margin: 10px;
+  padding: 20px, 0;
+}
+
 .portfolio {
   padding: 40px 20px;
 }
