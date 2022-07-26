@@ -9,12 +9,12 @@
   text-align: center;
   line-height: 1.5;
   padding: 160px 20px;
-
+  margin: 0px;
 }
 .hero p {
   font-size: 40px;
   font-weight: bold;
-  margin: 0;
+  margin: 0px;
 }
 
 body {
@@ -112,27 +112,41 @@ p {
   text-decoration: underline;
 }
 
+#contact {
+  padding: 20px 10px;
+  margin-bottom: 48px;
+}
+
+.headline-work {
+  font-size: 48px;
+  text-align: center;
+  padding: 40px 40px;
+}
+
 @media (min-width: 900px) {
   .footer {
     display: none;
   }
 }
 
-#contact {
-  padding: 20px 10px;
-  margin-bottom: 40px;
-}
-
 @media (max-width: 500px) {
   h1 {
-    color: plum;
     font-size: 42px;
   }
+
+  h2 {
+    font-size: 32px;
+  }
+
   .about-section {
     text-align: center;
     padding: 0;
   }
   .hero {
     padding: 80px 20px;
+    margin: 0;
   }
+  .primary-link {
+      white-space: nowrap;
+    }
 }
