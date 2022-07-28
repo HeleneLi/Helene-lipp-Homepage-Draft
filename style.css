@@ -172,6 +172,9 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 42px;
   }
