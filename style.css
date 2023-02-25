@@ -195,8 +195,3 @@ footer .social-links a:hover {
       white-space: nowrap;
     }
 }
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
